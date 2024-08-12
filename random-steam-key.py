@@ -39,7 +39,8 @@ while True:
     if genMore in affirmatives:
         genKey()
     elif genMore in negatives or genMore == "":
-        print("Understandable, have a nice day.")
+        print("Understandable, have a nice day.")star
         break
     else:
-        print("Didn't understand the answer!")
+        print("Didn't understand the answer!")star
+
