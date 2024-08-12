@@ -42,4 +42,4 @@ while True:
         print("Understandable, have a nice day.")
         break
     else:
-        print("Didn't understand the answer!")
+        print("Didn't understand the answer!")starts
