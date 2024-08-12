@@ -14,8 +14,8 @@ def genKey():
     for i in range(keyAmount):
         chars = string.ascii_uppercase + string.digits
         key = '-'.join(''.join(random.choice(chars) for _ in range(5)) for _ in range(3))
-        i += 1
-        keys.append(key)
+        ,
+        
         print(key)
 
     isSaved = str(input("Would you like to save the key(s) [yes/no] (default: no)? "))
@@ -39,7 +39,7 @@ while True:
     if genMore in affirmatives:
         genKey()
     elif genMore in negatives or genMore == "":
-        print("Understandable, have a nice day.")
+        print("Understandable, have a nice day.")50
         break
     else:
-        print("Didn't understand the answer!")
+        print("Didn't understand the answer!")starts
